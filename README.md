@@ -1,20 +1,27 @@
-# Nuxt 3 Minimal Starter
+# School-App
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Open Source school app frontend written in nuxt3
+This app is designed for students, teachers and administrators of any school
 
-## Setup
+This tool includes:
+- [X] Timetables
+- [X] Class books
+  - [X] Attendance
+  - [ ] Grades
+- [ ] Substitution plan
+
+...
+
+---
+
+Working with [school-api](https://github.com/DanielTerletzkiy/school-api) as rest api backend.
+
+## Setup for NUXT3
 
 Make sure to install the dependencies:
 
 ```bash
-# yarn
-yarn install
-
-# npm
 npm install
-
-# pnpm
-pnpm install --shamefully-hoist
 ```
 
 ## Development Server
